@@ -1,3 +1,12 @@
+.card {
+    border-radius: 10px;
+}
+
+.card img {
+    border-radius: 10px;
+    border: 2px solid lightgray;
+}
+
 @media screen and (max-width:480px) {
     .product {
         display: flex;

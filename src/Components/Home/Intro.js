@@ -18,7 +18,7 @@ const Intro = () => {
                     <p className="i-desc">
                         IF you Interested to know about my self ?
                     </p>
-                    <button><a className='fs-4 ' href="https://drive.google.com/file/d/1_37foKQytWI6VcMCyQ7gAuhO9tbNeWPG/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download Resume</a></button>
+                    <button><a style={{ textDecoration: "none" }} className='fs-4 ' href="https://drive.google.com/file/d/1_37foKQytWI6VcMCyQ7gAuhO9tbNeWPG/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download Resume</a></button>
                 </div>
 
             </div>
