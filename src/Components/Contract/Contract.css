@@ -80,7 +80,18 @@ button {
     cursor: pointer;
 }
 
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .c {
+        height: 70vh;
+    }
+
+}
+
 @media screen and (max-width: 480px) {
+    .c {
+        height: 70vh;
+    }
+
     .c-wrapper {
         flex-direction: column;
         padding: 0px 50px;
@@ -111,6 +122,7 @@ button {
     }
 
     button {
-        margin-top: 10px;
+        margin-top: 20px;
+
     }
 }

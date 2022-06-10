@@ -1,8 +1,10 @@
 import React from 'react';
+import useProjects from '../../hooks/useProjects';
 import Project from '../Project/Project';
 import './ProjectList.css'
-import { projects } from "../../projects"
+
 const ProjectList = () => {
+    const [projects, setProjects] = useProjects([]);
     return (
         <div className="pl">
             <div className="pl-texts">
@@ -13,7 +15,7 @@ const ProjectList = () => {
                 <h1 className='text-primary text-center mt-4'>PROJECTS</h1>
                 <div className='row'>
                     {
-                        projects.map(project => <Project key={project.id} project={project}></Project>)
+                        projects.map(project => <Project key={project._id} project={project}></Project>)
                     }
 
                 </div>

@@ -1,20 +1,37 @@
 [
     {
-        "img": "https://www.linkpicture.com/q/2022-06-09-6.png",
-        "name": "Chartered Accountant",
-        "description": "React Js, Router, Firebase, Authentication, BootStrap, Node js Netlify",
-        "id": 1
-    },
-    {
-        "img": "https://www.linkpicture.com/q/2022-06-09-7.png",
-        "name": "K.K. Car House LTD",
-        "description": "React Js, Router, Firebase, Authentication, BootStrap, Node js, Heroku, MongoDB, Express",
-        "id": 2
-    },
-    {
-        "img": "https://www.linkpicture.com/q/2022-06-09-3.png",
+        "id": 1,
+        "img": "https://www.linkpicture.com/q/screencapture-parts-manufacturing-dfcfe-web-app-2022-06-09-20_28_33-1.jpg",
+        "img2": "https://www.linkpicture.com/q/screencapture-parts-manufacturing-dfcfe-web-app-2022-06-10-19_34_17.png",
+        "img3": "https://www.linkpicture.com/q/screencapture-parts-manufacturing-dfcfe-web-app-2022-06-10-19_34_17_1.png",
         "name": "K.K. Electronic & Co.",
-        "description": "React Js, Router, Firebase, Authentication, BootStrap, Node js, Heroku, MongoDB, Express ",
-        "id": 3
+        "client": "https://github.com/kabbo500/electronic-warehouse-client",
+        "server": "https://github.com/kabbo500/electronic-warehouse-server",
+        "live": "https://parts-manufacturing-dfcfe.web.app/",
+        "feature": "It is a full stack project, the project type is warehouse . It has admin, only admin can made a admin . It's another feather is jwt, and It has Payment system .",
+        "description": "React Js, Router, Firebase, Authentication, BootStrap, Node js, Heroku, MongoDB, Express "
+    },
+    {
+        "id": 2,
+        "img": "https://www.linkpicture.com/q/screencapture-car-warehouse-58d62-web-app-2022-06-09-20_32_35.png",
+        "img2": "https://www.linkpicture.com/q/screencapture-car-warehouse-58d62-web-app-2022-06-10-19_36_31-2.png",
+        "img3": "https://www.linkpicture.com/q/screencapture-car-warehouse-58d62-web-app-2022-06-10-19_36_31_1.png",
+        "name": "K.K. Car House LTD",
+        "client": "https://github.com/kabbo500/Warehouse-management-client",
+        "server": "https://github.com/kabbo500/Warehouse-management-server",
+        "live": "https://car-warehouse-58d62.web.app/",
+        "feature": "It has two authentication system , google and email-pass. It has a private route for checking authorized user . and It has Email verification and  pass reset system.",
+        "description": "React Js, Router, Firebase, Authentication, BootStrap, Node js, Heroku, MongoDB, Express"
+    },
+    {
+        "id": 3,
+        "img": "https://www.linkpicture.com/q/screencapture-independent-service-prov-1f6b5-web-app-2022-06-10-19_37_51.png",
+        "img2": "https://www.linkpicture.com/q/screencapture-car-warehouse-58d62-web-app-login-2022-06-10-19_37_23.png",
+        "img3": "https://www.linkpicture.com/q/screencapture-independent-service-prov-1f6b5-web-app-2022-06-10-19_37_51-2.png",
+        "feature": "It is a simple react application. It has authentication and authorization system. and It has services and customer review",
+        "name": "Chartered Accountant",
+        "client": "https://github.com/kabbo500/chartered-accountant",
+        "live": "https://independent-service-prov-1f6b5.web.app/",
+        "description": "React Js, Router, Firebase, Authentication, BootStrap, Node js Netlify"
     }
 ]

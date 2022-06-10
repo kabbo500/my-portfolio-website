@@ -1,0 +1,61 @@
+.d {
+
+    height: 100vh;
+
+
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card img {
+    border-radius: 10px;
+    border: 2px solid lightgray;
+}
+
+.pro {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.link {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+}
+
+.link button {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.des {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 480px) {
+    .link {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-weight: 500;
+    }
+}

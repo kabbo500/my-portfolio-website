@@ -53,7 +53,7 @@ const Contract = () => {
                         <input className="text-white" style={{ backgroundColor: "#333" }} type="text" placeholder="Subject" name="user_subject" />
                         <input className="text-white" style={{ backgroundColor: "#333" }} type="text" placeholder="Email" name="user_email" />
                         <textarea className="text-white" style={{ backgroundColor: "#333" }} rows="5" placeholder="Message" name="message" />
-                        <button>Submit</button>
+                        <button className='btn btn-primary'>Send Email</button>
                         {done && "Thank you for Contract with me"}
                     </form>
                 </div>

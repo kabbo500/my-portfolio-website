@@ -1,0 +1,14 @@
+.footer-container {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    color: black;
+
+}
+
+@media screen and (max-width: 480px) {
+    .footer-container {
+        margin-top: 40px;
+    }
+}

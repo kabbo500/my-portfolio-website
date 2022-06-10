@@ -16,9 +16,9 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className="i-desc">
-                        IF you Interested to know about my self ?
+                        I am a self-curious Junior Front-end Web developer. Currently I'm focused on learning full-stack web development. IF you Interested to know more, about my self ?
                     </p>
-                    <button><a style={{ textDecoration: "none" }} className='fs-4 ' href="https://drive.google.com/file/d/1_37foKQytWI6VcMCyQ7gAuhO9tbNeWPG/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download Resume</a></button>
+                    <button className='resume'><a style={{ textDecoration: "none" }} className='fs-4 ' href="https://drive.google.com/file/d/1_37foKQytWI6VcMCyQ7gAuhO9tbNeWPG/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download Resume</a></button>
                 </div>
 
             </div>

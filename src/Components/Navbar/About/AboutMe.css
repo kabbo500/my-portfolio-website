@@ -1,5 +1,5 @@
 .a {
-    height: 90vh;
+    height: 85vh;
     display: flex;
     align-items: center;
 }
@@ -57,19 +57,10 @@
     font-weight: 300;
 }
 
-.resume {
-    border-radius: 10px;
-}
 
 
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    .a {
-        margin-top: 100px;
-    }
-
-
-}
+@media screen and (min-width: 768px) and (max-width: 992px) {}
 
 
 @media screen and (max-width:480px) {
@@ -77,8 +68,6 @@
         flex-direction: column-reverse;
         text-align: center;
         margin-top: 50px;
-
-
     }
 
     .a-title {
@@ -102,9 +91,5 @@
 
     .a-right {
         padding: 20px;
-    }
-
-    .resume {
-        display: none;
     }
 }

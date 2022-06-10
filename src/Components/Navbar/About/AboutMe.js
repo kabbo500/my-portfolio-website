@@ -1,6 +1,6 @@
 import React from 'react';
-import './About.css'
-import about from '../img/isometric-laptop-coding-concept-web-developer-vector-25840264.jpg'
+import about from '../../img/isometric-laptop-coding-concept-web-developer-vector-25840264.jpg';
+import './AboutMe.css'
 const About = () => {
     return (
         <div className="a">
